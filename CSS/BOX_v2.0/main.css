@@ -12,28 +12,31 @@ body {
     transition: 0.3s;
 }
 
-.boxred {
+.red {
     border-left: solid 2px red;
-    transform: scale(1.05, 1.05);
 }
 
-.boxred:hover {
+.red:hover {
     transform: scale(1.05, 1.05);
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+
 }
 
-.boxgreen{
+.green{
     border-left: solid 2px green;
+    
 }
 
-.boxgreen:hover{
+.green:hover{
+    transform: scale(1.05, 1.05);
     box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
 }
 
-.boxblue{
+.blue{
     border-left: solid 2px blue;
-
 }
 
-.boxblue:hover {
-    background-color: #eef;
+.blue:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
 }
